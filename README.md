@@ -30,15 +30,13 @@ The `configs` package mirrors paths from the home directory:
 ```text
 configs/
   .zshrc
-  .zshenv
   .zprofile
-  .gitconfig
-  .skhdrc
   .config/
+    borders/
     kitty/
-    yabai/
-    skhd/
     nvim/
+    skhd/
+    yabai/
 ```
 
 To add a new file, place it under `configs/` using the same path it should have from `~`, then run Stow again.

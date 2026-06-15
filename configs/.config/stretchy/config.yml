@@ -1,6 +1,0 @@
-# Stretchy pause app config
-intervalMinutes: 30
-pauseMinutes: 5
-scheduleMode: workAfterPause
-windowPosition: center
-allowSkip: true
