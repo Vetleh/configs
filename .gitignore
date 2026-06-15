@@ -1,0 +1,42 @@
+.DS_Store
+*.log
+*.bak
+*.save
+*.tmp
+*.swp
+*.swo
+*.zwc
+
+# Shell runtime state
+.zsh_history
+.zcompdump*
+.zsh_sessions/
+
+# Local secrets and credentials
+.env
+.env.*
+*.secret
+*.secrets
+secrets.*
+credentials.*
+*_credentials
+*_token
+*_tokens
+
+# Generated package/app state
+node_modules/
+__pycache__/
+.cache/
+*receipt*.json
+*.lockb
+
+# Config directories that are local app state, not portable dotfiles
+configs/.config/raycast/
+configs/.config/opencode/node_modules/
+configs/.config/configstore/
+configs/.config/cagent/
+configs/.config/samply/
+configs/.config/uv/
+
+# Never absorb nested repositories into this repo.
+configs/**/.git/
